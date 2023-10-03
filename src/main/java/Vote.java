@@ -44,12 +44,14 @@ public class Vote {
         return result.toString();
     }
 
-    public boolean vote(String name, int number) {
-        if (votedUsers.contains(name)) return false;
+    public boolean isUserVote(String name) {
+        return votedUsers.contains(name);
+    }
+
+    public void vote(String name, int number) {
         String answer = answerNumbers.get(number);
         answers.put(answer, answers.get(answer) + 1);
         votedUsers.add(name);
-        return true;
     }
 
     public String getCreator() {

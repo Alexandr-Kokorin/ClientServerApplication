@@ -18,11 +18,10 @@ public class Topic {
         votes.put(title, new Vote(creator, topic, answers));
     }
 
-    public int deleteVote(String name, String title) {
-        if (!votes.containsKey(title)) return -1;
-        if (!votes.get(title).getCreator().equals(name)) return 0;
+    public boolean deleteVote(String name, String title) {
+        if (!votes.get(title).getCreator().equals(name)) return false;
         votes.remove(title);
-        return 1;
+        return true;
     }
 
     public String getViewRequest() {

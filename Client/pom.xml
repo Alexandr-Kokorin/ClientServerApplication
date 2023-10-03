@@ -9,6 +9,16 @@
     <artifactId>Client</artifactId>
     <name>Archetype - Client</name>
     <url>http://maven.apache.org</url>
+
+    <dependencies>
+        <dependency>
+            <groupId>ru.KokorinAA</groupId>
+            <artifactId>ClientServerApplication</artifactId>
+            <version>1.0-SNAPSHOT</version>
+            <scope>compile</scope>
+        </dependency>
+    </dependencies>
+
     <build>
         <plugins>
             <plugin>
