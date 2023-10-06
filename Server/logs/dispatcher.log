@@ -29,3 +29,11 @@
 2023-10-06 10:10:31 DEBUG Server:28 - New client connected to server!
 2023-10-06 10:13:53 DEBUG ClientSession:37 - The client disconnected from the server.
 2023-10-06 10:14:18 DEBUG Server:44 - The server is closed.
+2023-10-06 10:40:27 DEBUG Server:24 - The server has been successfully started!
+2023-10-06 10:40:27 DEBUG Server:25 - Waiting connection on port: 8084
+2023-10-06 10:41:36 DEBUG Server:24 - The server has been successfully started!
+2023-10-06 10:41:36 DEBUG Server:25 - Waiting connection on port: 8084
+2023-10-06 10:52:26 DEBUG Server:24 - The server has been successfully started!
+2023-10-06 10:52:26 DEBUG Server:25 - Waiting connection on port: 8084
+2023-10-06 10:52:30 DEBUG Server:28 - New client connected to server!
+2023-10-06 10:52:36 ERROR ClientSession:39 - Connection to the client is lost.
