@@ -22,8 +22,8 @@ public class Server {
         new Thread(this::doWork).start();
         try (ServerSocket serverSocket = new ServerSocket(config.getPort())) {
             log.debug("The server has been successfully started!");
+            log.debug("Waiting connection on port: " + config.getPort());
             while (!config.isStopFlag()) {
-                log.debug("Waiting connection on port: " + config.getPort());
                 Socket clientSocket = serverSocket.accept();
                 log.debug("New client connected to server!");
                 ClientSession clientSession = new ClientSession(clientSocket, library);

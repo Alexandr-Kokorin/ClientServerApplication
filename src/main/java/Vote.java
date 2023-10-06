@@ -1,5 +1,8 @@
+import lombok.Data;
+
 import java.util.*;
 
+@Data
 public class Vote {
 
     private final String creator;
@@ -10,7 +13,7 @@ public class Vote {
     private final Map<Integer, String> answerNumbers;
     private final Set<String> votedUsers;
 
-    public Vote(String creator, String topic, List<String> answers, Set<String> votedUsers) {
+    public Vote(String creator, String topic, List<String> answers) {
         this.creator = creator;
         this.topic = topic;
         this.answers = new HashMap<>();
@@ -20,7 +23,15 @@ public class Vote {
             this.answers.put(answer, 0);
             answerNumbers.put(++number, answer);
         }
-        this.votedUsers = votedUsers == null? new HashSet<>(): votedUsers;
+        this.votedUsers = new HashSet<>();
+    }
+
+    public Vote(String creator, String topic, Map<String, Integer> answers, Map<Integer, String> answerNumbers, Set<String> votedUsers) {
+        this.creator = creator;
+        this.topic = topic;
+        this.answers = answers;
+        this.answerNumbers = answerNumbers;
+        this.votedUsers = votedUsers;
     }
 
     public synchronized String getViewRequest() {
@@ -44,18 +55,22 @@ public class Vote {
     }
 
     public synchronized boolean vote(String name, int number) {
-        if (votedUsers.contains(name)) return false;
+        if (isUserExists(name)) return false;
         String answer = answerNumbers.get(number);
         answers.put(answer, answers.get(answer) + 1);
         votedUsers.add(name);
         return true;
     }
 
+    public synchronized boolean isUserExists(String name) {
+        return votedUsers.contains(name);
+    }
+
     public synchronized int getCountAnswers() {
         return answers.size();
     }
 
-    public String getCreator() {
-        return creator;
+    public synchronized int getCountUsers() {
+        return votedUsers.size();
     }
 }

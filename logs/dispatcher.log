@@ -1,8 +1,0 @@
-2023-10-03 18:23:53 DEBUG Server:18 - The server has been successfully started!
-2023-10-03 18:23:53 DEBUG Server:20 - Waiting connection on port:8084
-2023-10-03 18:24:35 DEBUG Server:18 - The server has been successfully started!
-2023-10-03 18:24:35 DEBUG Server:20 - Waiting connection on port: 8084
-2023-10-03 18:24:46 DEBUG Server:22 - New client connected to server!
-2023-10-03 18:24:46 DEBUG Server:20 - Waiting connection on port: 8084
-2023-10-03 18:26:31 DEBUG Server:22 - New client connected to server!
-2023-10-03 18:26:31 DEBUG Server:20 - Waiting connection on port: 8084

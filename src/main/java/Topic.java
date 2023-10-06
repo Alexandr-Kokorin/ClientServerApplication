@@ -11,10 +11,15 @@ public class Topic {
         votes = new HashMap<>();
     }
 
-    public synchronized boolean addVote(String creator, String title, String topic, List<String> answers, Set<String> votedUsers) {
+    public synchronized boolean addVote(String creator, String title, String topic, List<String> answers) {
         if (votes.containsKey(title)) return false;
-        votes.put(title, new Vote(creator, topic, answers, votedUsers));
+        votes.put(title, new Vote(creator, topic, answers));
         return true;
+    }
+
+    public synchronized void addVote(String title, String creator, String topic, Map<String, Integer> answers, Map<Integer, String> answerNumbers, Set<String> votedUsers) {
+        if (votes.containsKey(title)) return;
+        votes.put(title, new Vote(creator, topic, answers, answerNumbers, votedUsers));
     }
 
     public synchronized int deleteVote(String name, String title) {
@@ -34,11 +39,19 @@ public class Topic {
         return result.toString();
     }
 
+    public synchronized Boolean isVoteExists(String title) {
+        return votes.containsKey(title);
+    }
+
     public synchronized int getCountVotes() {
         return votes.size();
     }
 
     public synchronized Vote getVote(String title) {
         return votes.get(title);
+    }
+
+    public synchronized Map<String, Vote> getVotes() {
+        return votes;
     }
 }

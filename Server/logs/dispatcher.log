@@ -1,102 +1,31 @@
-2023-10-03 18:31:39 DEBUG Server:18 - The server has been successfully started!
-2023-10-03 18:31:39 DEBUG Server:20 - Waiting connection on port: 8084
-2023-10-03 18:32:00 DEBUG Server:22 - New client connected to server!
-2023-10-03 18:32:00 DEBUG Server:20 - Waiting connection on port: 8084
-2023-10-03 18:33:51 DEBUG Server:18 - The server has been successfully started!
-2023-10-03 18:33:51 DEBUG Server:20 - Waiting connection on port: 8084
-2023-10-03 18:34:24 DEBUG Server:18 - The server has been successfully started!
-2023-10-03 18:34:24 DEBUG Server:20 - Waiting connection on port: 8084
-2023-10-03 18:34:37 DEBUG Server:22 - New client connected to server!
-2023-10-03 18:34:37 DEBUG Server:20 - Waiting connection on port: 8084
-2023-10-03 19:14:07 DEBUG Server:18 - The server has been successfully started!
-2023-10-03 19:14:07 DEBUG Server:20 - Waiting connection on port: 8084
-2023-10-03 19:14:17 DEBUG Server:22 - New client connected to server!
-2023-10-03 19:14:17 DEBUG Server:20 - Waiting connection on port: 8084
-2023-10-03 19:14:23 DEBUG Server:22 - New client connected to server!
-2023-10-03 19:14:23 DEBUG Server:20 - Waiting connection on port: 8084
-2023-10-03 19:14:24 DEBUG Server:22 - New client connected to server!
-2023-10-03 19:14:24 DEBUG Server:20 - Waiting connection on port: 8084
-2023-10-04 12:29:50 DEBUG Server:20 - The server has been successfully started!
-2023-10-04 12:29:50 DEBUG Server:22 - Waiting connection on port: 8084
-2023-10-04 12:30:00 DEBUG Server:24 - New client connected to server!
-2023-10-04 12:30:00 DEBUG Server:22 - Waiting connection on port: 8084
-2023-10-04 12:30:10 DEBUG Server:24 - New client connected to server!
-2023-10-04 12:30:10 DEBUG Server:22 - Waiting connection on port: 8084
-2023-10-04 15:36:38 DEBUG Server:24 - The server has been successfully started!
-2023-10-04 15:36:38 DEBUG Server:26 - Waiting connection on port: 8084
-2023-10-04 15:36:52 DEBUG Server:28 - New client connected to server!
-2023-10-04 15:36:52 DEBUG Server:26 - Waiting connection on port: 8084
-2023-10-04 15:38:24 DEBUG Server:28 - New client connected to server!
-2023-10-04 15:38:24 DEBUG Server:26 - Waiting connection on port: 8084
-2023-10-04 15:41:10 DEBUG Server:28 - New client connected to server!
-2023-10-04 15:41:10 DEBUG Server:26 - Waiting connection on port: 8084
-2023-10-04 15:41:41 DEBUG Server:28 - New client connected to server!
-2023-10-04 15:41:41 DEBUG Server:26 - Waiting connection on port: 8084
-2023-10-04 15:41:48 DEBUG Server:28 - New client connected to server!
-2023-10-04 15:41:48 DEBUG Server:26 - Waiting connection on port: 8084
-2023-10-04 15:45:17 DEBUG Server:44 - The server is closed
-2023-10-04 15:45:38 DEBUG Server:24 - The server has been successfully started!
-2023-10-04 15:45:38 DEBUG Server:26 - Waiting connection on port: 8084
-2023-10-04 15:45:45 DEBUG Server:28 - New client connected to server!
-2023-10-04 15:45:45 DEBUG Server:26 - Waiting connection on port: 8084
-2023-10-04 15:51:09 DEBUG Server:28 - New client connected to server!
-2023-10-04 15:51:09 DEBUG Server:26 - Waiting connection on port: 8084
-2023-10-04 15:54:25 DEBUG Server:28 - New client connected to server!
-2023-10-04 15:54:25 DEBUG Server:26 - Waiting connection on port: 8084
-2023-10-04 15:57:08 DEBUG Server:28 - New client connected to server!
-2023-10-04 15:57:08 DEBUG Server:26 - Waiting connection on port: 8084
-2023-10-04 15:57:18 DEBUG Server:28 - New client connected to server!
-2023-10-04 15:57:18 DEBUG Server:26 - Waiting connection on port: 8084
-2023-10-04 15:59:11 DEBUG Server:44 - The server is closed
-2023-10-04 15:59:18 DEBUG Server:24 - The server has been successfully started!
-2023-10-04 15:59:18 DEBUG Server:26 - Waiting connection on port: 8084
-2023-10-04 15:59:29 DEBUG Server:28 - New client connected to server!
-2023-10-04 15:59:29 DEBUG Server:26 - Waiting connection on port: 8084
-2023-10-04 16:02:37 DEBUG Server:44 - The server is closed
-2023-10-04 16:02:47 DEBUG Server:24 - The server has been successfully started!
-2023-10-04 16:02:47 DEBUG Server:26 - Waiting connection on port: 8084
-2023-10-04 16:02:50 DEBUG Server:28 - New client connected to server!
-2023-10-04 16:02:50 DEBUG Server:26 - Waiting connection on port: 8084
-2023-10-04 16:03:08 DEBUG Server:28 - New client connected to server!
-2023-10-04 16:03:08 DEBUG Server:26 - Waiting connection on port: 8084
-2023-10-04 16:03:10 DEBUG Server:28 - New client connected to server!
-2023-10-04 16:03:10 DEBUG Server:26 - Waiting connection on port: 8084
-2023-10-04 16:03:56 DEBUG Server:44 - The server is closed
-2023-10-04 16:27:50 DEBUG Server:24 - The server has been successfully started!
-2023-10-04 16:27:50 DEBUG Server:26 - Waiting connection on port: 8084
-2023-10-04 16:27:58 DEBUG Server:28 - New client connected to server!
-2023-10-04 16:27:58 DEBUG Server:26 - Waiting connection on port: 8084
-2023-10-04 16:28:31 DEBUG Server:28 - New client connected to server!
-2023-10-04 16:28:31 DEBUG Server:26 - Waiting connection on port: 8084
-2023-10-04 16:28:35 DEBUG Server:44 - The server is closed
-2023-10-04 21:16:28 DEBUG Server:24 - The server has been successfully started!
-2023-10-04 21:16:28 DEBUG Server:26 - Waiting connection on port: 8084
-2023-10-04 21:16:34 DEBUG Server:28 - New client connected to server!
-2023-10-04 21:16:34 DEBUG Server:26 - Waiting connection on port: 8084
-2023-10-04 21:24:22 DEBUG Server:44 - The server is closed.
-2023-10-04 21:24:29 DEBUG Server:24 - The server has been successfully started!
-2023-10-04 21:24:29 DEBUG Server:26 - Waiting connection on port: 8084
-2023-10-04 21:24:40 DEBUG Server:28 - New client connected to server!
-2023-10-04 21:24:40 DEBUG Server:26 - Waiting connection on port: 8084
-2023-10-04 21:31:51 DEBUG Server:24 - The server has been successfully started!
-2023-10-04 21:31:51 DEBUG Server:26 - Waiting connection on port: 8084
-2023-10-04 21:31:56 DEBUG Server:28 - New client connected to server!
-2023-10-04 21:31:56 DEBUG Server:26 - Waiting connection on port: 8084
-2023-10-04 21:35:11 DEBUG Server:28 - New client connected to server!
-2023-10-04 21:35:11 DEBUG Server:26 - Waiting connection on port: 8084
-2023-10-04 21:45:13 DEBUG Server:28 - New client connected to server!
-2023-10-04 21:45:13 DEBUG Server:26 - Waiting connection on port: 8084
-2023-10-04 21:47:04 DEBUG Server:28 - New client connected to server!
-2023-10-04 21:47:04 DEBUG Server:26 - Waiting connection on port: 8084
-2023-10-04 21:47:39 DEBUG Server:28 - New client connected to server!
-2023-10-04 21:47:39 DEBUG Server:26 - Waiting connection on port: 8084
-2023-10-04 22:57:51 DEBUG Server:44 - The server is closed.
-2023-10-04 23:14:07 DEBUG Server:24 - The server has been successfully started!
-2023-10-04 23:14:07 DEBUG Server:26 - Waiting connection on port: 8084
-2023-10-04 23:14:11 DEBUG Server:28 - New client connected to server!
-2023-10-04 23:14:11 DEBUG Server:26 - Waiting connection on port: 8084
-2023-10-04 23:22:02 DEBUG Server:28 - New client connected to server!
-2023-10-04 23:22:02 DEBUG Server:26 - Waiting connection on port: 8084
-2023-10-04 23:23:09 DEBUG Server:28 - New client connected to server!
-2023-10-04 23:23:09 DEBUG Server:26 - Waiting connection on port: 8084
-2023-10-04 23:25:48 DEBUG Server:44 - The server is closed.
+
+2023-10-05 20:21:03 DEBUG Server:24 - The server has been successfully started!
+2023-10-05 20:21:03 DEBUG Server:25 - Waiting connection on port: 8084
+2023-10-05 20:21:09 DEBUG Server:28 - New client connected to server!
+2023-10-05 20:21:50 DEBUG ClientSession:37 - The client disconnected from the server.
+2023-10-05 20:21:57 DEBUG Server:44 - The server is closed.
+2023-10-05 23:06:03 DEBUG Server:24 - The server has been successfully started!
+2023-10-05 23:06:03 DEBUG Server:25 - Waiting connection on port: 8084
+2023-10-05 23:06:07 DEBUG Server:28 - New client connected to server!
+2023-10-05 23:11:26 DEBUG Server:44 - The server is closed.
+2023-10-05 23:13:20 DEBUG Server:24 - The server has been successfully started!
+2023-10-05 23:13:20 DEBUG Server:25 - Waiting connection on port: 8084
+2023-10-05 23:13:25 DEBUG Server:28 - New client connected to server!
+2023-10-05 23:18:50 ERROR ClientSession:39 - Connection to the client is lost.
+2023-10-05 23:18:58 DEBUG Server:24 - The server has been successfully started!
+2023-10-05 23:18:58 DEBUG Server:25 - Waiting connection on port: 8084
+2023-10-05 23:19:03 DEBUG Server:28 - New client connected to server!
+2023-10-05 23:21:06 DEBUG ClientSession:37 - The client disconnected from the server.
+2023-10-05 23:21:55 DEBUG Server:44 - The server is closed.
+2023-10-06 09:44:06 DEBUG Server:24 - The server has been successfully started!
+2023-10-06 09:44:06 DEBUG Server:25 - Waiting connection on port: 8084
+2023-10-06 09:44:11 DEBUG Server:28 - New client connected to server!
+2023-10-06 09:44:17 DEBUG Server:28 - New client connected to server!
+2023-10-06 10:09:20 DEBUG ClientSession:37 - The client disconnected from the server.
+2023-10-06 10:09:24 DEBUG ClientSession:37 - The client disconnected from the server.
+2023-10-06 10:09:29 DEBUG Server:44 - The server is closed.
+2023-10-06 10:10:28 DEBUG Server:24 - The server has been successfully started!
+2023-10-06 10:10:28 DEBUG Server:25 - Waiting connection on port: 8084
+2023-10-06 10:10:31 DEBUG Server:28 - New client connected to server!
+2023-10-06 10:13:53 DEBUG ClientSession:37 - The client disconnected from the server.
+2023-10-06 10:14:18 DEBUG Server:44 - The server is closed.

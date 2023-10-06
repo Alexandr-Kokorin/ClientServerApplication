@@ -28,24 +28,30 @@ public class ClientSession extends Thread {
 
     private void doWork() {
         try (Connector connector = new Connector(socket)) {
-            boolean isExit = false;
-            while (name == null) {
-                String[] command = connector.readLine().split("=");
-                if (command.length == 1 && command[0].equalsIgnoreCase("exit")) {
-                    isExit = true;
-                    break;
-                } else if (command.length == 2 && command[0].equalsIgnoreCase("login -u")) {
-                    name = command[1];
-                    connector.writeLine("Welcome, " + name + "!");
-                } else connector.writeLine("It's not possible to use command until you are logged in.");
-            }
+            boolean isExit = runLoginCommand(connector);
             String command;
             while (!isExit && !(command = connector.readLine()).equalsIgnoreCase("exit")) {
                 manager.sortCommand(command, connector, name);
             }
             connector.writeLine("Closing...");
+            log.debug("The client disconnected from the server.");
         } catch (IOException e) {
             log.error("Connection to the client is lost.");
         }
+    }
+
+    private boolean runLoginCommand(Connector connector) throws IOException {
+        boolean isExit = false;
+        while (name == null) {
+            String[] command = connector.readLine().split("=");
+            if (command.length == 1 && command[0].equalsIgnoreCase("exit")) {
+                isExit = true;
+                break;
+            } else if (command.length == 2 && command[0].equalsIgnoreCase("login -u")) {
+                name = command[1];
+                connector.writeLine("Welcome, " + name + "!");
+            } else connector.writeLine("It's not possible to use command until you are logged in.");
+        }
+        return isExit;
     }
 }

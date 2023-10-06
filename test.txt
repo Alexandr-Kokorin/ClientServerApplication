@@ -1,0 +1,33 @@
+Library: 2
+Topic: 2
+Sport
+Vote: 2
+Java
+Hockey
+What will be the bill?
+2:1#-#0
+3:3#-#2
+Users: 2
+Java
+Rumzess
+Vote: 3
+Rumzess
+Football
+Who will win?
+CSKA#-#1
+Spartacus#-#0
+Zenith#-#0
+Users: 1
+Java
+Topic: 1
+Goodies
+Vote: 4
+Java
+Sweets
+What tastes better?
+Chocolate#-#1
+Ice cream#-#0
+Lollipops#-#0
+Cotton candy#-#0
+Users: 1
+Rumzess
