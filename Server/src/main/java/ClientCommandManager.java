@@ -93,7 +93,10 @@ public class ClientCommandManager {
     private void runVoteCommand(String topic, String title, Connector connector, String name) throws IOException {
         if (isTopicNotCreate(library.getTopic(topic), connector)) return;
         if (isVoteNotCreate(library.getTopic(topic).getVote(title), connector)) return;
-        if (library.getTopic(topic).getVote(title).isUserExists(name)) return;
+        if (library.getTopic(topic).getVote(title).isUserExists(name)) {
+            connector.writeLine("You have already voted in this vote.");
+            return;
+        }
         Vote vote = library.getTopic(topic).getVote(title);
         String str = vote.getVoteRequest() + "\nEnter the response number:";
         connector.writeLine(str);
